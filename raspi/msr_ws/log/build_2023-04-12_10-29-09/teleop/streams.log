@@ -1,0 +1,39 @@
+[3.386s] Invoking command in '/home/mr/msr_ws/src/teleop': PYTHONPATH=/home/mr/msr_ws/build/teleop/prefix_override:/home/mr/msr_ws/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop build --build-base /home/mr/msr_ws/build/teleop/build install --record /home/mr/msr_ws/build/teleop/install.log --single-version-externally-managed
+[4.517s] running egg_info
+[4.520s] creating ../../build/teleop/teleop.egg-info
+[4.521s] writing ../../build/teleop/teleop.egg-info/PKG-INFO
+[4.522s] writing dependency_links to ../../build/teleop/teleop.egg-info/dependency_links.txt
+[4.523s] writing entry points to ../../build/teleop/teleop.egg-info/entry_points.txt
+[4.523s] writing requirements to ../../build/teleop/teleop.egg-info/requires.txt
+[4.524s] writing top-level names to ../../build/teleop/teleop.egg-info/top_level.txt
+[4.525s] writing manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[4.532s] reading manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[4.535s] writing manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[4.536s] running build
+[4.537s] running build_py
+[4.537s] creating /home/mr/msr_ws/build/teleop/build
+[4.538s] creating /home/mr/msr_ws/build/teleop/build/lib
+[4.539s] creating /home/mr/msr_ws/build/teleop/build/lib/teleop
+[4.539s] copying teleop/__init__.py -> /home/mr/msr_ws/build/teleop/build/lib/teleop
+[4.539s] copying teleop/subscriber_member_function.py -> /home/mr/msr_ws/build/teleop/build/lib/teleop
+[4.540s] running install
+[4.541s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.541s]   warnings.warn(
+[4.542s] running install_lib
+[4.545s] creating /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop
+[4.545s] copying /home/mr/msr_ws/build/teleop/build/lib/teleop/__init__.py -> /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop
+[4.546s] copying /home/mr/msr_ws/build/teleop/build/lib/teleop/subscriber_member_function.py -> /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop
+[4.548s] byte-compiling /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop/__init__.py to __init__.cpython-310.pyc
+[4.550s] byte-compiling /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[4.552s] running install_data
+[4.554s] creating /home/mr/msr_ws/install/teleop/share/ament_index
+[4.555s] creating /home/mr/msr_ws/install/teleop/share/ament_index/resource_index
+[4.555s] creating /home/mr/msr_ws/install/teleop/share/ament_index/resource_index/packages
+[4.556s] copying resource/teleop -> /home/mr/msr_ws/install/teleop/share/ament_index/resource_index/packages
+[4.557s] copying package.xml -> /home/mr/msr_ws/install/teleop/share/teleop
+[4.557s] running install_egg_info
+[4.563s] Copying ../../build/teleop/teleop.egg-info to /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop-0.0.0-py3.10.egg-info
+[4.573s] running install_scripts
+[4.658s] Installing listener script to /home/mr/msr_ws/install/teleop/lib/teleop
+[4.659s] writing list of installed files to '/home/mr/msr_ws/build/teleop/install.log'
+[4.809s] Invoked command in '/home/mr/msr_ws/src/teleop' returned '0': PYTHONPATH=/home/mr/msr_ws/build/teleop/prefix_override:/home/mr/msr_ws/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop build --build-base /home/mr/msr_ws/build/teleop/build install --record /home/mr/msr_ws/build/teleop/install.log --single-version-externally-managed

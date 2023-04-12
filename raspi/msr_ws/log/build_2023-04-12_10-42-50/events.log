@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.001333] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.002609] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.101503] (-) TimerEvent: {}
+[0.204041] (-) TimerEvent: {}
+[0.307174] (-) TimerEvent: {}
+[0.408440] (-) TimerEvent: {}
+[0.509243] (-) TimerEvent: {}
+[0.609967] (-) TimerEvent: {}
+[0.710709] (-) TimerEvent: {}
+[0.811393] (-) TimerEvent: {}
+[0.912121] (-) TimerEvent: {}
+[1.012889] (-) TimerEvent: {}
+[1.113627] (-) TimerEvent: {}
+[1.214485] (-) TimerEvent: {}
+[1.315597] (-) TimerEvent: {}
+[1.416515] (-) TimerEvent: {}
+[1.518017] (-) TimerEvent: {}
+[1.618736] (-) TimerEvent: {}
+[1.719577] (-) TimerEvent: {}
+[1.820388] (-) TimerEvent: {}
+[1.921294] (-) TimerEvent: {}
+[2.021979] (-) TimerEvent: {}
+[2.122733] (-) TimerEvent: {}
+[2.223488] (-) TimerEvent: {}
+[2.324259] (-) TimerEvent: {}
+[2.425033] (-) TimerEvent: {}
+[2.525741] (-) TimerEvent: {}
+[2.626498] (-) TimerEvent: {}
+[2.727318] (-) TimerEvent: {}
+[2.828123] (-) TimerEvent: {}
+[2.929533] (-) TimerEvent: {}
+[3.005892] (teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop', 'build', '--build-base', '/home/mr/msr_ws/build/teleop/build', 'install', '--record', '/home/mr/msr_ws/build/teleop/install.log', '--single-version-externally-managed'], 'cwd': '/home/mr/msr_ws/src/teleop', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja:en', 'USER': 'mr', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mr', 'OLDPWD': '/home/mr', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'MANAGERPID': '1016', 'SYSTEMD_EXEC_PID': '1216', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '55949', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mr/msr_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mr', 'JOURNAL_STREAM': '8:23187', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mr-raspi:@/tmp/.ICE-unix/1185,unix/mr-raspi:/tmp/.ICE-unix/1185', 'INVOCATION_ID': '739cb13709724c4fa77a03d665db204f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4XHQ21', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mr/msr_ws/install/teleop:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:1f6ec1f2-427e-4fe8-89ec-e1995c780caa', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mr/msr_ws/build/teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mr/msr_ws/build/teleop/prefix_override:/home/mr/msr_ws/install/teleop/lib/python3.10/site-packages:/home/mr/msr_ws/install/teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.029747] (-) TimerEvent: {}
+[3.130647] (-) TimerEvent: {}
+[3.231532] (-) TimerEvent: {}
+[3.332353] (-) TimerEvent: {}
+[3.433234] (-) TimerEvent: {}
+[3.533992] (-) TimerEvent: {}
+[3.634672] (-) TimerEvent: {}
+[3.735397] (-) TimerEvent: {}
+[3.836092] (-) TimerEvent: {}
+[3.936775] (-) TimerEvent: {}
+[4.037603] (-) TimerEvent: {}
+[4.138295] (-) TimerEvent: {}
+[4.144358] (teleop) StdoutLine: {'line': b'running egg_info\n'}
+[4.147814] (teleop) StdoutLine: {'line': b'writing ../../build/teleop/teleop.egg-info/PKG-INFO\n'}
+[4.149096] (teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop/teleop.egg-info/dependency_links.txt\n'}
+[4.150047] (teleop) StdoutLine: {'line': b'writing entry points to ../../build/teleop/teleop.egg-info/entry_points.txt\n'}
+[4.151018] (teleop) StdoutLine: {'line': b'writing requirements to ../../build/teleop/teleop.egg-info/requires.txt\n'}
+[4.151807] (teleop) StdoutLine: {'line': b'writing top-level names to ../../build/teleop/teleop.egg-info/top_level.txt\n'}
+[4.160009] (teleop) StdoutLine: {'line': b"reading manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'\n"}
+[4.163672] (teleop) StdoutLine: {'line': b"writing manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'\n"}
+[4.164873] (teleop) StdoutLine: {'line': b'running build\n'}
+[4.166105] (teleop) StdoutLine: {'line': b'running build_py\n'}
+[4.166994] (teleop) StdoutLine: {'line': b'copying teleop/subscriber_member_function.py -> /home/mr/msr_ws/build/teleop/build/lib/teleop\n'}
+[4.167968] (teleop) StdoutLine: {'line': b'running install\n'}
+[4.169116] (teleop) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.170015] (teleop) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.171123] (teleop) StdoutLine: {'line': b'running install_lib\n'}
+[4.174410] (teleop) StdoutLine: {'line': b'copying /home/mr/msr_ws/build/teleop/build/lib/teleop/subscriber_member_function.py -> /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop\n'}
+[4.178604] (teleop) StdoutLine: {'line': b'byte-compiling /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[4.182790] (teleop) StdoutLine: {'line': b'running install_data\n'}
+[4.186493] (teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.193204] (teleop) StdoutLine: {'line': b"removing '/home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.194870] (teleop) StdoutLine: {'line': b'Copying ../../build/teleop/teleop.egg-info to /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop-0.0.0-py3.10.egg-info\n'}
+[4.199812] (teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[4.238474] (-) TimerEvent: {}
+[4.284968] (teleop) StdoutLine: {'line': b'Installing listener script to /home/mr/msr_ws/install/teleop/lib/teleop\n'}
+[4.286896] (teleop) StdoutLine: {'line': b"writing list of installed files to '/home/mr/msr_ws/build/teleop/install.log'\n"}
+[4.338725] (-) TimerEvent: {}
+[4.419092] (teleop) CommandEnded: {'returncode': 0}
+[4.439821] (-) TimerEvent: {}
+[4.495073] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 0}
+[4.498695] (-) EventReactorShutdown: {}

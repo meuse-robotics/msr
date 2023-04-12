@@ -1,0 +1,26 @@
+[3.091s] Invoking command in '/home/mr/msr_ws/src/teleop': PYTHONPATH=/home/mr/msr_ws/build/teleop/prefix_override:/home/mr/msr_ws/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop build --build-base /home/mr/msr_ws/build/teleop/build install --record /home/mr/msr_ws/build/teleop/install.log --single-version-externally-managed
+[4.217s] running egg_info
+[4.220s] writing ../../build/teleop/teleop.egg-info/PKG-INFO
+[4.221s] writing dependency_links to ../../build/teleop/teleop.egg-info/dependency_links.txt
+[4.222s] writing entry points to ../../build/teleop/teleop.egg-info/entry_points.txt
+[4.223s] writing requirements to ../../build/teleop/teleop.egg-info/requires.txt
+[4.224s] writing top-level names to ../../build/teleop/teleop.egg-info/top_level.txt
+[4.232s] reading manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[4.236s] writing manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[4.237s] running build
+[4.237s] running build_py
+[4.238s] copying teleop/subscriber_member_function.py -> /home/mr/msr_ws/build/teleop/build/lib/teleop
+[4.239s] running install
+[4.240s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.240s]   warnings.warn(
+[4.241s] running install_lib
+[4.245s] copying /home/mr/msr_ws/build/teleop/build/lib/teleop/subscriber_member_function.py -> /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop
+[4.247s] byte-compiling /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[4.250s] running install_data
+[4.252s] running install_egg_info
+[4.259s] removing '/home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[4.260s] Copying ../../build/teleop/teleop.egg-info to /home/mr/msr_ws/install/teleop/lib/python3.10/site-packages/teleop-0.0.0-py3.10.egg-info
+[4.270s] running install_scripts
+[4.358s] Installing listener script to /home/mr/msr_ws/install/teleop/lib/teleop
+[4.359s] writing list of installed files to '/home/mr/msr_ws/build/teleop/install.log'
+[4.495s] Invoked command in '/home/mr/msr_ws/src/teleop' returned '0': PYTHONPATH=/home/mr/msr_ws/build/teleop/prefix_override:/home/mr/msr_ws/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop build --build-base /home/mr/msr_ws/build/teleop/build install --record /home/mr/msr_ws/build/teleop/install.log --single-version-externally-managed
